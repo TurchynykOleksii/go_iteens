@@ -8,14 +8,16 @@
 @import './base/container';
 @import './base/section';
 
-@import './components/buttons';
-@import './components/forms';
 @import './components/mobile-menu';
 @import './components/menu';
-@import './components/modal';
+@import './components/header-desktop';
 
 @import './components/hero';
 
 @import './layouts/header';
+@import './layouts/process';
+@import './layouts/pay';
+@import './layouts/study';
+@import './layouts/certificate';
 
 @import './layouts/footer';

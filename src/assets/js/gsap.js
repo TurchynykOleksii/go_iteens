@@ -1,18 +1,18 @@
-import { CountUp } from 'countup.js';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+// import { CountUp } from 'countup.js';
+// import { gsap } from 'gsap';
+// import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
-// АНИМАЦИЯ ДЛЯ ПОЯВЛЕНИЯ ЭЛЕМЕНТОВ ПРИ СКРОЛЕ ПО ОЧЕРЕДНОСТИ
+// // АНИМАЦИЯ ДЛЯ ПОЯВЛЕНИЯ ЭЛЕМЕНТОВ ПРИ СКРОЛЕ ПО ОЧЕРЕДНОСТИ
 
-gsap.from('.js_appearance_second', {
-  scrollTrigger: '.js_appearance_second',
-  duration: 0.8,
-  opacity: 0,
-  y: 100,
-  stagger: 0.25,
-});
+// gsap.from('.js_appearance_second', {
+//   scrollTrigger: '.js_appearance_second',
+//   duration: 0.8,
+//   opacity: 0,
+//   y: 100,
+//   stagger: 0.25,
+// });
 
 // gsap.from('.js_appearance_promote', {
 //   scrollTrigger: '.js_appearance_promote',
@@ -63,13 +63,13 @@ gsap.from('.js_appearance_second', {
 // });
 
 //АНИМАЦИЯ COUNTUP ДЛЯ ЧИСЕЛ
-const firstNumber = document.querySelector('.js_first_number');
-const secondNumber = document.querySelector('.js_second_number');
-const thirdNumber = document.querySelector('.js_third_number');
+// const firstNumber = document.querySelector('.js_first_number');
+// const secondNumber = document.querySelector('.js_second_number');
+// const thirdNumber = document.querySelector('.js_third_number');
 
-let countFirst = new CountUp(firstNumber, 3817);
-let countSecond = new CountUp(secondNumber, 2079);
-let countThird = new CountUp(thirdNumber, 50);
+// let countFirst = new CountUp(firstNumber, 3817);
+// let countSecond = new CountUp(secondNumber, 2079);
+// let countThird = new CountUp(thirdNumber, 50);
 
 let targetEl = document.querySelector('.bottom-box');
 
